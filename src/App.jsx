@@ -5,7 +5,6 @@ import ProtectedRoute from "../Express/ProtectedRoute"; // ProtectedRoute for gu
 import Copyright from "./components/copyright/copyright"; // Footer Copyright
 import LoginPage from "./components/LoginPage/Login"; // Login Page Component
 import RegisterPage from "./components/RegisterPage/RegisterPage"; // Register Page Component
-import Loading from "./components/LoadingAnimations/Loading"; // request Loading Pages
 import Portfolio from "./components/certificates/portfolio"; // Portfolio Page
 import Search from "./components/Search/search"; // Search Component
 import "bootstrap/dist/css/bootstrap.min.css"; // Bootstrap CSS
