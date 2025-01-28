@@ -1,5 +1,6 @@
 {
   "name": "praiwanx-project",
+  "homepage": "https://kd231a.github.io/myportfolio999/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "body-parser": "^1.20.3",
@@ -16,6 +19,7 @@
     "express": "^4.21.2",
     "express.js": "^1.0.0",
     "firebase": "^11.2.0",
+    "gh-pages": "^6.3.0",
     "git": "^0.1.5",
     "mysql2": "^3.11.5",
     "particles.js": "^2.0.0",
